@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Titulo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+               <link href="js/jquery.mobile-1.3.2.min.css" rel="stylesheet" type="text/css"/>
+               <link href="js/mitema.min.css" rel="stylesheet" type="text/css"/>
+               <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+               <script src="js/jquery.mobile-1.3.2.min.js" type="text/javascript"></script>
+               <script src="js/acciones.js" type="application/javascript"></script>
+                      
+        <script src="phonegap.js"></script>
+
+        
+        <!-- necesario*/ -->
+    </head>
+    
+    <body>
+        
+        
+        <div data-role="page" id="page" data-theme="a">
+	<div data-role="header" data-theme="b">
+		<h1>examen 2do parcial DAM2</h1>
+	</div>
+	<div data-role="content" data-theme="a">
+    <br>	
+		<ul data-role="listview">
+            <li><a href="#page3" data-transition="slidedown">Eventos</a></li>
+		</ul>		
+	</div>
+    <br>
+	<div data-role="footer" data-theme="b">   
+     <div align="center">
+      <img src="imagenes/PicsArt_1412307277984.jpg" width="46" height="46">
+    </div>
+		<h4>Esmeralda Morales Castillo</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3" data-theme="a">
+	<div data-role="header" data-theme="b">
+		<h1>Eventos</h1>
+	</div>
+	<div data-role="content" data-theme="a">	
+		<ul data-role="controlgroup" data-type="vertical">
+            <li><a href="#page4" data-transition="fade" data-role="button">izquierda</a></li>
+            <li><a href="#page5" data-transition="pop" data-role="button">derecha</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" data-theme="b">
+		<h4>Esmeralda Morales Castillo</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-theme="b">
+		<h1>izquierda</h1>
+	</div>
+	<div data-role="content" align="center" data-theme="a">	
+		<div id="izquierda" style="width:90%; height:300px; background:#09F;">
+        </div>		
+	</div>
+	<div data-role="footer" data-theme="b">
+		<h4>Esmeralda Morales Castillo</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page5" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-theme="b">
+		<h1>derecha</h1>
+	</div>
+	<div data-role="content" align="center" data-theme="a">	
+		<div id="izquierda" style="width:90%; height:300px; background:#9F3;">
+        </div>		
+	</div>
+	<div data-role="footer" data-theme="b">
+		<h4>Esmeralda Morales Castillo</h4>
+	</div>
+</div>
+    </body>
+
+</html>
